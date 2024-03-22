@@ -25,7 +25,7 @@ def find_item(items, k, v):
         items.pop(min(items.keys()))
         find_item(items, k- temp_w, temp_v)
 
-find_item(items, k, 0)
+print(find_item(items, k, 0))
 
 
 
